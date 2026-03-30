@@ -34,7 +34,7 @@ The config file automatically updates with a list of all installed models for ea
 * **REASONING_BUDGET** – For reasoning models only. 0 = thinking disabled. 1+ sets token budget for reasoning steps.
 * **FLASH_ATTN** – Flash Attention (`true`/`false`/`auto`) for faster inference and lower memory use
 * **MLOCK** – Lock model in RAM (`true`/`false`) to prevent swapping to disk
-* * **EMOJI_ALLOW** – `true` allows emojis. `false` restricts output to ASCII only (blocks emojis).
+* **EMOJI_ALLOW** – `true` allows emojis. `false` restricts output to ASCII only (blocks emojis).
 
 ### AI Personality
 Edit `Desktop/Llama/personality.txt` to customize the system prompt.
